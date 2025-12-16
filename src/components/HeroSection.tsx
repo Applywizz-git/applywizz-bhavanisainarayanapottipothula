@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, Download, Eye } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const techKeywords = ["React", "Spring Boot", "TypeScript", "AWS", "Docker", "Node.js"];
@@ -192,11 +191,12 @@ const HeroSection = () => {
             >
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/30 glow-primary relative z-10">
                 <img
-                  src={profilePhoto}
-                  alt="Sai Pottipothula - Full-Stack Developer"
-                  className="w-full h-full object-cover"
-                  loading="eager"
-                />
+  src="/sai image.png"
+  alt="Sai Pottipothula - Full-Stack Developer"
+  className="w-full h-full object-cover"
+  loading="eager"
+/>
+
               </div>
 
               {/* Decorative rings */}
